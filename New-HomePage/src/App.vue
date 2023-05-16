@@ -1,5 +1,5 @@
 <template>
-
+    <!-- Header -->
     <nav class="flex mt-10 mx-32 h-16 justify-between items-center font-inter mb-10">
         <div>
             <i>
@@ -20,13 +20,75 @@
             </ul>
         </div>
     </nav>
+
+    <!-- Content -->
     <section>
-        <div class="grid grid-cols-3">
-            <div class="col-span-2 bg-softRed">fhgkjdhfg</div>
-            <div class="row-span-2 bg-VeryDarkBlue">dfkjghjkdfg</div>
-            <div class="col-span-1 bg-DarkGrayishBlue">dfjkhgjkd</div>
-            <div class="col-span-1 bg-DarkGrayishBlue">dfjasdasdkhgjkd</div>
+        <div class="grid grid-cols-3 gap-12 mt-10 mx-32">
+            <div class="col-span-2"><img src="./assets/images/image-web-3-desktop.jpg" alt=""></div>
+            <div class="row-span-2 bg-VeryDarkBlue">
+                <div class="mx-8 my-8">
+                    <h3 class="text-softOrange text-5xl font-bold ">New</h3>
+                    <h2 class="text-OffWhite mt-8 text-xl font-semibold ">Hydrogen VS Electric Cars</h2>
+                    <p class="text-GrayishBlue mt-4 font-thin font-inter">Will hydrogen-fueled cars ever catch up to EVs?
+                    </p>
+                </div>
+                <div class="mx-8 my-8 border-y-2 mt-16 py-10">
+                    <h2 class="text-softOrange text-xl font-bold ">The Downsides of AI Artistry</h2>
+                    <p class="text-GrayishBlue mt-4 font-thin font-inter">What are the possible adverse effects of on-demand
+                        AI image generation?</p>
+                </div>
+                <div class="mx-8 my-8">
+                    <h2 class="text-OffWhite mt-8 text-xl font-semibold ">Is VC Funding Drying Up?</h2>
+                    <p class="text-GrayishBlue mt-4 font-thin font-inter">Private funding by VC firms is down 50% YOY. We
+                        take a look at what that means.</p>
+                </div>
+            </div>
+            <div class="col-span-1 font-inter text-7xl font-bold text-VeryDarkBlue leading-tight">The Bright Future of
+                Web 3.0?</div>
+            <div class="col-span-1 font-inter mx-20">
+                <p class="text-DarkGrayishBlue font-medium text-md">We dive into the next evolution of the web that claims
+                    to put the
+                    power of the platforms back into the hands of the people.
+                    But is it really fulfilling its promise?
+                </p>
+                <button class="bg-VeryDarkBlue h-12 w-48 rounded-none tracking-[.25em] text-OffWhite mt-16"> READ
+                    MORE</button>
+            </div>
         </div>
     </section>
 
+    <!-- Content 2 -->
+    <section class="h-36 flex mt-24 mx-32 mb-32">
+
+        <div>
+            <img class="object-cover h-full w-full" src="./assets/images/image-retro-pcs.jpg" alt="">
+        </div>
+
+        <div class="ml-8 space-y-2">
+            <h1 class="text-GrayishBlue font-bold">01</h1>
+            <h6 class="text-VeryDarkBlue font-extrabold text-xl">Reviving Retro PCs</h6>
+            <p class="text-DarkGrayishBlue">What happens when old PCs are given modern upgrades?</p>
+        </div>
+
+        <div>
+            <img class="object-cover h-full w-full" src="./assets/images/image-top-laptops.jpg" alt="">
+        </div>
+
+        <div class="ml-8 space-y-2">
+            <h1 class="text-GrayishBlue font-bold">02</h1>
+            <h6 class="text-VeryDarkBlue font-extrabold text-xl">Top 10 Laptops of 2022</h6>
+            <p class="text-DarkGrayishBlue">Our best picks for various needs and budgets.</p>
+        </div>
+
+        <div>
+            <img class="object-cover h-full w-full" src="./assets/images/image-gaming-growth.jpg" alt="">
+        </div>
+
+        <div class="ml-8 space-y-2">
+            <h1 class="text-GrayishBlue font-bold">03</h1>
+            <h6 class="text-VeryDarkBlue font-extrabold text-xl">The Growth of Gaming</h6>
+            <p class="text-DarkGrayishBlue">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+
+    </section>
 </template>
